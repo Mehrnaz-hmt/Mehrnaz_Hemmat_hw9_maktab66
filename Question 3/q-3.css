@@ -41,7 +41,6 @@ body {
 .grey-cards {
   width: 100%;
   height: 50vh;
-  border: 2px solid black;
   margin-top: 6%;
   margin-bottom: 6%;
 }
@@ -54,4 +53,33 @@ body {
 }
 .grey-cards-col {
     height:19.4rem;
+}
+.working-progress {
+    text-align: center;
+  color: #778899;
+  margin-top: 4%;
+}
+.p-under-working-progress {
+    text-align: center;
+    color: #778899;
+    margin-top: 3%;
+}
+.round-border {
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: grey;
+}
+.circle-grey-cards {
+    width:180px;
+    height: 160px;
+    border-radius:50% ;
+    background-color: rgb(87, 81, 81);
+}
+.circle-icons {
+    width: 80px;
+    height: 80px;
+}
+.arrow-right-icon {
+  object-fit: contain;
 }
