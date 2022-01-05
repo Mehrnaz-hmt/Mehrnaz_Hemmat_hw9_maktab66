@@ -1,0 +1,49 @@
+html {
+    padding:0;
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    width: 99vw;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* border: 2px solid black; */
+    
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(32,178,170);
+    font-weight: bolder;
+  }
+ 
+ 
+  .logo {
+      display: inline-block;
+      width:90px;
+      height: 70px;
+      object-fit: contain;
+      margin-top: 0;
+      margin-right: 590px;
+    }
+    .blue-box {
+        width:100vw;
+        height:70px;
+        background-color:rgb(32,178,170);
+    }
+    .destination {
+        float: left;
+        color: white;
+    }
