@@ -106,8 +106,62 @@ body {
 }
 .andre {
   object-fit: contain;
-  width: 550px; 
-  height: 350px;
-  /* float:right; */
+  width: 500px; 
+  height: 300px;
   margin-right: 0;
+}
+.row-border {
+  border: 2px black solid;
+}
+.img-border {
+  border:2px solid rgb(111, 235, 29)
+}
+.text-border {
+  border: 2px solid rgb(172, 29, 29);
+}
+.about-me {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.grey-p {
+  color: rgb(121, 116, 116);
+}
+.photographer-box {
+  background-color: rgb(165, 173, 182);
+}
+.tick {
+  width: 15px;
+  height: 20px;
+}
+.circle-social-media-cards {
+  width:40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(156, 158, 161);
+  margin: 0.25%;
+}
+.social-icons {
+  width:20px;
+  height: 25px;
+  /* padding:5px; */
+}
+.footer {
+width:100vw;
+background-color: rgb(96, 99, 116);
+}
+.personal-website {
+  color:rgb(49, 49, 53);
+  
+}
+.circle-media {
+  width:40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(48, 45, 45);
+  border:2px solid white;
+  margin: 1px;
+}
+.social-icons2 {
+  width:26px;
+  height: 26px;
 }
