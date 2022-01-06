@@ -30,8 +30,8 @@ li a {
 
 .logo {
   display: inline-block;
-  width: 90px;
-  height: 70px;
+  width: 100px;
+  height: 80px;
   object-fit: contain;
   margin-top: 0;
   margin-right: 590px;
@@ -48,7 +48,7 @@ li a {
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 30px;
-  font-size: large;
+  font-size: x-large;
   font-weight: bolder;
 }
 .home-destination {
@@ -124,74 +124,100 @@ li a {
   /* max-width: 99vw; */
   margin-top: 3%;
   margin-bottom: 7%;
- border: 2px solid turquoise;
+  border: 2px solid turquoise;
 }
 .div-blue-box-2 {
-margin-top:15px;
- border: 2px solid black;
- height: 100%;
+  margin-top: 15px;
+  border: 2px solid black;
+  height: 100%;
 }
 .forms {
-    margin-top: 25px;
-    margin-right: 35px;
-    float: right;
-    
+  margin-top: 25px;
+  margin-right: 35px;
+  float: right;
 }
 input {
-    height: 35px;
+  height: 35px;
 }
 .subscribe-button {
-    height: 37px;
-    width: 95px;
-    border: none;
-    background-color: greenyellow;
+  height: 37px;
+  width: 95px;
+  border: none;
+  background-color: greenyellow;
 }
 .text-subscribe {
-    font-size: larger;
-    color: white;
-    font-weight: bolder;
+  font-size: larger;
+  color: white;
+  font-weight: bolder;
 }
 .div-newsletter {
-    height: 100%;
-    margin-top: 15px;
-    margin-left: 50px;
+  height: 100%;
+  margin-top: 15px;
+  margin-left: 50px;
 }
 .newsletter {
-    font-size: xx-large;
-    color: white;
-    font-weight: bolder;
-    /* border: 2px solid pink; */
-    height: 100%;
+  font-size: xx-large;
+  color: white;
+  font-weight: bolder;
+  /* border: 2px solid pink; */
+  height: 100%;
 }
 .footer {
-    margin-top: 0;
-    width: 100%;
-    height: auto;
-    border: 3px red solid;
+  margin-top: 0;
+  width: 100%;
+  height: auto;
+  /* border: 3px red solid; */
 }
 .logo-bottom {
-    display: inline-block;
-    width: 170px;
-    height: 150px;
-    object-fit: contain;
-    margin-top:2%;
-    margin-left: 5%;
-  }
-  .card-footer-left {
-      display: inline-block;
-      width: 400px;
-      height: auto;
-      border: 2px solid purple;
-  }
-  .card-footer-center {
-    display: inline-block;
-    margin-top: 3%;
-    margin-left: 3%;
-    width: 400px;
-    height: auto;
-    border: 2px solid purple;
+  display: inline-block;
+  width: 210px;
+  object-fit: contain;
 }
-  .card-footer-left p {
-      color: rgb(95, 90, 90);
-     
-  }
+.card-footer-left {
+  display: inline-block;
+  width: 400px;
+  height: auto;
+  margin-top: 0;
+  /* border: 2px solid purple; */
+}
+.card-footer-center {
+  display: inline-block;
+  margin-top: 4%;
+  width: 400px;
+  height: auto;
+  /* border: 2px solid purple; */
+  line-height: 13px;
+  color: rgb(95, 90, 90);
+}
+.card-footer-left p {
+  color: rgb(95, 90, 90);
+}
+.community {
+  display: inline-block;
+  margin-left: 3%;
+  line-height: 13px;
+}
+.community-items {
+  color: rgb(95, 90, 90);
+}
+#community-item-word {
+  color: black;
+}
+.useful-link {
+  margin-left: 4%;
+  margin-top: 0;
+  display: inline-block;
+  line-height: 15px;
+}
+.useful-link-item {
+  color: rgb(95, 90, 90);
+}
+.blue-box-3 {
+  height: 2rem;
+  width: 100%;
+  background-color: rgb(0, 206, 209);
+}
+.useful-link-word {
+  color: black;
+
+}
