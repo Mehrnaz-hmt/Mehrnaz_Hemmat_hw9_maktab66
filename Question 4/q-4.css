@@ -1,122 +1,197 @@
 html {
-    padding:0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 ul {
-    list-style-type: none;
-    width: 99vw;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    
-    
-  }
-  
-  li {
+  list-style-type: none;
+  width: 99vw;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: rgb(0, 206, 209);
+  font-weight: bolder;
+}
+
+.logo {
+  display: inline-block;
+  width: 90px;
+  height: 70px;
+  object-fit: contain;
+  margin-top: 0;
+  margin-right: 590px;
+}
+.blue-box {
+  width: 100vw;
+  height: 80px;
+  background-color: rgb(0, 206, 209);
+}
+
+.destination {
+  float: left;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  font-size: large;
+  font-weight: bolder;
+}
+.home-destination {
+  margin-right: 30px;
+  float: right;
+  color: white;
+  margin-top: 20px;
+  font-size: large;
+  font-weight: normal;
+}
+.destinations-h2 {
+  float: center;
+  color: turquoise;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bolder;
+  /* margin-bottom: 150px; */
+}
+.ppp {
+  text-align: center;
+  margin-top: 2%;
+}
+.picture-cards {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  margin-bottom: 0.75%;
+  /* border: 2px solid black; */
+  width: 1230px;
+  height: 700px;
+}
+.cards-item {
+  display: inline-block;
+  width: 380px;
+  height: 300px;
+  margin: 0.5%;
+  border: 1px solid rgb(230, 225, 225);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 5px rgb(230, 226, 226);
+}
+.img-cards {
+  width: 100%;
+  object-fit: contain;
+}
+.space-for-word {
+  margin-left: 10px;
+  /* margin-bottom: 1px; */
+  margin-top: 3px;
+  color: rgb(103, 105, 105);
+}
+.button {
+  background-color: rgb(159, 219, 69);
+  color: white;
+  padding: 15px 32px;
+  /* text-align: center; */
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none;
+  margin-left: 45%;
+}
+.green-button {
+  width: 99vw;
+  height: 60px;
+  margin-top: 0;
+  margin-bottom: 4%;
+  /* border: 2px solid black; */
+}
+#blue-box-2 {
+  height: 5rem;
+  /* max-width: 99vw; */
+  margin-top: 3%;
+  margin-bottom: 7%;
+ border: 2px solid turquoise;
+}
+.div-blue-box-2 {
+margin-top:15px;
+ border: 2px solid black;
+ height: 100%;
+}
+.forms {
+    margin-top: 25px;
+    margin-right: 35px;
     float: right;
-  }
-  
-  li a {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    color: rgb(0,206,209);
+    
+}
+input {
+    height: 35px;
+}
+.subscribe-button {
+    height: 37px;
+    width: 95px;
+    border: none;
+    background-color: greenyellow;
+}
+.text-subscribe {
+    font-size: larger;
+    color: white;
     font-weight: bolder;
+}
+.div-newsletter {
+    height: 100%;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.newsletter {
+    font-size: xx-large;
+    color: white;
+    font-weight: bolder;
+    /* border: 2px solid pink; */
+    height: 100%;
+}
+.footer {
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+    border: 3px red solid;
+}
+.logo-bottom {
+    display: inline-block;
+    width: 170px;
+    height: 150px;
+    object-fit: contain;
+    margin-top:2%;
+    margin-left: 5%;
   }
- 
- 
-  .logo {
+  .card-footer-left {
       display: inline-block;
-      width:90px;
-      height: 70px;
-      object-fit: contain;
-      margin-top: 0;
-      margin-right: 590px;
-    }
-    .blue-box {
-        width:100vw;
-        height:70px;
-        background-color:rgb(0,206,209);
-    }
-   
-    .destination {
-        float: left;
-        color: white;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-left:30px ;
-        font-size: large;
-        font-weight:bolder;
-    }
-    .home-destination {
-        margin-right: 30px;
-        float: right;
-        color: white;
-        margin-top:20px;
-        font-size: large;
-        font-weight:normal;
-    }
-    .destinations-h2 {
-        float: center;
-        color: turquoise;
-        text-align: center;
-        font-size: xx-large;
-        font-weight:bolder;
-        /* margin-bottom: 150px; */
-    }
-    .ppp {
-        text-align: center;
-        margin-top: 2%;
-    }
-    .picture-cards {
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: 3%;
-        margin-bottom:0.75%;
-        /* border: 2px solid black; */
-        width: 1230px;
-        height: 700px;
-    }
-    .cards-item {
-        display: inline-block;
-        width:380px;
-        height: 300px;
-        margin: 1%;
-        border: 1px solid rgb(230, 225, 225);
-        background-color: rgb(255, 255, 255);
-        box-shadow: 5px 5px 5px rgb(230, 226, 226);
-    }
-    .img-cards {
-        width: 100%;
-        object-fit: contain;
-    }
-    .space-for-word {
-        margin-left: 10px;
-        /* margin-bottom: 1px; */
-        margin-top:3px ;
-        color: rgb(103, 105, 105);
-    }
-    .button {
-        background-color: rgb(159, 219, 69);
-        color: white;
-        padding: 15px 32px;
-        /* text-align: center; */
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-        border: none;
-        margin-left:45%;
-      }
-      .green-button {
-          width: 99vw;
-          height: 60px;
-          /* border: 2px solid black; */
-      }
+      width: 400px;
+      height: auto;
+      border: 2px solid purple;
+  }
+  .card-footer-center {
+    display: inline-block;
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 400px;
+    height: auto;
+    border: 2px solid purple;
+}
+  .card-footer-left p {
+      color: rgb(95, 90, 90);
+     
+  }
