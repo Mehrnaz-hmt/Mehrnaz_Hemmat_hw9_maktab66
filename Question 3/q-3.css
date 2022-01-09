@@ -151,6 +151,7 @@ html {
 .social-icons {
   width:20px;
   height: 25px;
+  text-align: center;
   /* padding:5px; */
 }
 .footer {
