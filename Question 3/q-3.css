@@ -35,7 +35,16 @@ html {
 #navbar-text {
   margin-right: 20px;
 }
-
+.carousel-inner {
+  position: relative;
+}
+.hello-h3 {
+  font-size:100px;
+  font-weight:bolder;
+  position: absolute;
+  top: 50px;
+  left: 40px;
+}
 .im-specialized {
   text-align: center;
   color: #778899;
